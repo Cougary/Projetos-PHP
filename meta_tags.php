@@ -6,6 +6,4 @@ $meta = get_meta_tags($site);
 foreach($meta as $m) {
     echo("$m\n");
 }
-
-
 ?>
