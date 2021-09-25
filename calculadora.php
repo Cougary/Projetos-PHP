@@ -1,5 +1,6 @@
 <?php
 
+
 $string = "CALCULADORA";
 $texto  = str_pad($string, 50, "-", STR_PAD_BOTH);
 echo("$texto\n");
@@ -13,6 +14,7 @@ echo("[4] Divisão\n");
 
 $operacao = (int) readline("Digite a operação a realizar: ");
 
+# Operações
 if ($operacao == 1) {
     $soma = $num1 + $num2;
     echo("Soma: $soma\n");
@@ -26,7 +28,5 @@ if ($operacao == 1) {
     $divi = $num1 / $num2;
     echo("Divisão: $divi\n");
 }
-    
-    
 
 ?>
